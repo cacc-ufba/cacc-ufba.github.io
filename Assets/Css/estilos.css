@@ -1,0 +1,124 @@
+/*Estilização do Header */
+
+.div header{
+    display: block;
+}
+#backgroundTop {
+    background-image: url(../Img/Header/header-back.png);
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    padding: 5% 0;
+    margin-bottom: 0%;
+}
+
+#topo img {
+    display: block;
+    width: 35%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+#menu-principal ul {
+    padding: 0px;
+    margin: 0px;
+    background-color: #ABB7B7;
+    list-style: nome;
+    text-align: center;
+}
+
+#menu-principal ul li{
+    display: inline;
+    margin: 0px;
+    padding: 0px; 
+}
+
+#menu-principal ul li a {
+    font-family: Lato;
+    font-size: 15px;
+    display: inline-block;
+    padding: 15px 2%;
+    color: black;
+    background-color: none;
+    transition: background-color 2s;
+    text-decoration: none;
+    border-bottom: none;
+    margin: 0px;
+
+}
+
+#menu-principal ul li a:hover {
+    background-color: #6C7A89;
+    transition: background-color 2s;
+}
+
+/*Fim da Estilização do Header */
+/*Estilização da Interview */
+.interview {
+    padding: 50px;
+}
+.interview h1 {
+    font-family: Lato;
+    font-size: 25px;
+    font-weight: bold;
+    padding-bottom: 5px;
+    border-bottom: black solid 4px;
+}
+.interview p {
+    text-align: justify;
+    padding-top: 25px;
+    line-height: 1.5;
+    text-indent: 75px;
+}
+/*Fim da Estilização do Interviw */
+.author-box {
+    max-width: 50%;
+    padding: 2%;
+    float: left;
+    margin: 10px;
+    background-color: #none;
+}
+.author-box a {
+    font-size: 14px;
+    text-decoration: none;
+    color: #6C7A89;
+    background-image:
+}
+.author-box h1 {
+     border-bottom: none;
+}
+
+.author-box p {
+    color: #6C7A89;
+    font-style: oblique;
+    text-indent: 0;
+    font-size: 12px;
+    padding-top: 0;
+}
+
+.author-box img {
+    max-height: 80px;
+    max-width: 80px;
+    float: left;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+section {
+    margin: 25px;
+}
+
+.content {
+    text-align: right;
+    font-family: Lato;
+    margin: 15px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.analecto {
+    
+}
